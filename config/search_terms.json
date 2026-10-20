@@ -24,11 +24,17 @@
     "DVR Examiner",
     "XRY",
     "MSAB",
-    "Expert Witness"
+    "Expert Witness",
+    "Magnet Verify",
+    "Magnet Review",
+    "Griffeye",
+    "XAMN",
+    "XEC"
   ],
   "notes": [
     "Forensic and Forensics are both kept so title matching is more forgiving.",
     "SAM Get Opportunities API matches the title parameter as a title filter, not full description text.",
-    "Broad terms like Cyber and IRS will return many results; use --days and review carefully."
+    "Broad terms like Cyber and IRS will return many results; use --days and review carefully.",
+    "Brand names (AXIOM, Magnet Forensics/Verify/Review, GrayKey, Griffeye, MSAB, XRY, XAMN, XEC) are also scanned in each notice's full description by scripts/brand_scan.py; the report and history carry them as brand_terms."
   ]
 }

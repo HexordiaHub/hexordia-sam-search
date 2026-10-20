@@ -137,6 +137,8 @@ class Hit:
     matched_terms: set[str] = field(default_factory=set)
     award_amount: str = ""
     awardee: str = ""
+    # Multi-word terms whose full phrase was confirmed in the description (not the title) at search time.
+    body_terms: set[str] = field(default_factory=set)
 
     def public_url(self) -> str:
         if self.ui_link and self.ui_link not in ("null", "None"):
@@ -544,6 +546,7 @@ def opportunity_from_frontend_row(row: dict[str, Any], term: str) -> Hit | None:
     blob = _row_text_blob(row, title)
     if not term_matches_result(term, title, blob):
         return None
+    in_body = is_multi_word_term(term) and not term_matches_result(term, title, title)
 
     return Hit(
         notice_id=notice_id,
@@ -559,6 +562,7 @@ def opportunity_from_frontend_row(row: dict[str, Any], term: str) -> Hit | None:
         matched_terms={term},
         award_amount=amount,
         awardee=awardee,
+        body_terms={term} if in_body else set(),
     )
 
 
@@ -675,12 +679,13 @@ def merge_hits(all_hits: list[Hit]) -> list[Hit]:
         key = h.record_key()
         if key in by_id:
             by_id[key].matched_terms |= h.matched_terms
+            by_id[key].body_terms |= h.body_terms
         else:
             by_id[key] = h
     # Drop multi-word false matches that only survived via OR-style SGS ranking
     cleaned: list[Hit] = []
     for h in by_id.values():
-        kept = {t for t in h.matched_terms if term_matches_result(t, h.title, h.title)}
+        kept = {t for t in h.matched_terms if t in h.body_terms or term_matches_result(t, h.title, h.title)}
         if not kept:
             continue
         h.matched_terms = kept
@@ -694,8 +699,9 @@ def filter_notice_row(row: dict[str, Any]) -> dict[str, Any] | None:
     terms = row.get("matched_terms") or []
     if isinstance(terms, str):
         terms = [t.strip() for t in terms.split(";") if t.strip()]
-    kept = [t for t in terms if term_matches_result(str(t), title, title)]
-    if not kept:
+    body = set(row.get("body_terms") or [])
+    kept = [t for t in terms if t in body or term_matches_result(str(t), title, title)]
+    if not kept and not row.get("brand_terms"):
         return None
     out = dict(row)
     out["matched_terms"] = kept
@@ -967,6 +973,7 @@ def hit_to_notice_dict(h: Hit) -> dict[str, Any]:
         "active": h.active,
         "organization": h.organization,
         "matched_terms": sorted(h.matched_terms, key=str.casefold),
+        "body_terms": sorted(h.body_terms, key=str.casefold),
         "award_amount": h.award_amount,
         "awardee": h.awardee,
         "url": h.public_url(),
@@ -1009,6 +1016,8 @@ def merge_into_history(
             # Merge terms + refresh fields
             terms = set(existing.get("matched_terms") or []) | h.matched_terms
             existing["matched_terms"] = sorted(terms, key=str.casefold)
+            body = set(existing.get("body_terms") or []) | h.body_terms
+            existing["body_terms"] = sorted(body, key=str.casefold)
             existing["last_seen_date"] = run_date
             seen_dates = list(existing.get("seen_on_dates") or [])
             if run_date not in seen_dates:
@@ -1087,6 +1096,7 @@ DETAIL_COLUMNS = [
     ("title", "Title"),  # D
     ("url", "URL"),  # E — next to title for quick open
     ("matched_terms", "Matched terms"),
+    ("brand_terms", "Brand match"),
     ("type", "Type"),
     ("response_deadline", "Response deadline"),
     ("solicitation_number", "Solicitation #"),
@@ -1126,7 +1136,7 @@ def _write_detail_rows(ws, rows: list[dict[str, Any]], start_row: int = 2) -> No
         excel_row = start_row + r_i
         for c_i, (key, _) in enumerate(DETAIL_COLUMNS, 1):
             val = row.get(key, "")
-            if key == "matched_terms" and isinstance(val, list):
+            if key in ("matched_terms", "brand_terms") and isinstance(val, list):
                 val = "; ".join(val)
             if key == "is_new":
                 val = "YES" if val else ""
@@ -1797,6 +1807,18 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--to", dest="date_to", help="Posted to YYYY-MM-DD (default: today)")
     parser.add_argument("--ptype", dest="ptypes", default="", help="API only: comma ptypes o,k,r,p,s,a,...")
     parser.add_argument("--terms", type=Path, default=DEFAULT_TERMS)
+    parser.add_argument(
+        "--no-brand-scan",
+        action="store_true",
+        help="Skip the brand-name scan of each notice's full description (AXIOM, XRY, GrayKey, ...)",
+    )
+    parser.add_argument(
+        "--brand-attachments",
+        action="store_true",
+        default=(os.environ.get("SAM_BRAND_ATTACHMENTS") or "").strip().lower() in ("1", "true", "yes", "on"),
+        help="Also read public .docx/.xlsx/.txt attachments (and .pdf when pypdf is installed) for brand names",
+    )
+    parser.add_argument("--brand-sleep", type=float, default=1.0, help="Seconds between brand-scan requests")
     parser.add_argument("--term", action="append", default=[], help="Extra term (repeatable)")
     parser.add_argument("--limit", type=int, default=DEFAULT_LIMIT)
     parser.add_argument("--max-pages", type=int, default=DEFAULT_MAX_PAGES)
@@ -2172,6 +2194,29 @@ def main(argv: list[str] | None = None) -> int:
             meta=meta_partial,
         )
         print(f"First-seen new: {len(newly)}")
+        if not args.no_brand_scan:
+            # Full description (+ attachments when asked): the SGS card only carries the first ~200 chars.
+            sys.path.insert(0, str(Path(__file__).resolve().parent))
+            import brand_scan
+
+            today_keys = list((history.get("days") or {}).get(run_date, {}).get("notice_keys") or [])
+            other = [k for k in (history.get("notices") or {}) if k not in today_keys]
+            print(f"Brand scan ({'description + attachments' if args.brand_attachments else 'description'})...", flush=True)
+            bstats = brand_scan.scan_history(
+                history, today_keys + other, attachments=args.brand_attachments, sleep=max(0.0, args.brand_sleep)
+            )
+            print(
+                f"Brand scan: {bstats['scanned']} scanned, {bstats['cached']} cached, "
+                f"{bstats['errors']} errors, {bstats['brand']} with a brand match",
+                flush=True,
+            )
+            notices_now = history.get("notices") or {}
+            for row in day_rows:
+                rec = notices_now.get(row.get("notice_id") or "")
+                if isinstance(rec, dict):
+                    for f in ("brand_terms", "brand_where"):
+                        if f in rec:
+                            row[f] = rec[f]
         prune_history(history, keep_days=max(1, args.history_days))
         print(
             f"History retention: last {args.history_days} day(s) "

@@ -55,3 +55,18 @@ The site stays lean; the repo keeps the long history under `data/archive/` (not 
 
 Each result row on the HTML report has **Copy for Trello**. Click to copy a card-ready block (title, SAM link, terms, deadline, etc.), then paste into a new Trello card. No Trello API keys required.
 
+
+## Brand-name scan
+
+After each search, `scripts/brand_scan.py` reads every notice's **full description** (one GET to the public
+`sam.gov/api/prod/opps/v2/opportunities/<id>` per notice, cached in `data/history.json` under `brand_scan`) and records
+`brand_terms` / `brand_where` for AXIOM, Magnet AXIOM, Magnet Forensics, Magnet Verify, Magnet Review, GrayKey (also
+"GreyKey"), Griffeye, MSAB, XRY, XAMN, XEC. Case-insensitive, word boundaries; bare AXIOM and XEC count only with
+forensic context nearby (or another brand in the notice), so "Axiom Builders" or "axiom" in math is not a hit.
+Unmatched notices are rechecked after 5 days. `--no-brand-scan` turns it off.
+
+`--brand-attachments` (or `SAM_BRAND_ATTACHMENTS=1`) also reads up to 6 public attachments per notice (≤ 8 MB):
+.docx/.xlsx/.txt with the standard library, .pdf only when `pypdf` is installed. Off by default; the workflow does
+not pass it today. The Excel report has a **Brand match** column; the Hexordia Hub reads `brand_terms` from history.json.
+
+Tests: `python3 tests/test_brand_scan.py`

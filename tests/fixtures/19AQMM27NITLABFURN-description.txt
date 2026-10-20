@@ -1,0 +1,101 @@
+  Sources Sought:  IT, Lab, and Furniture Equipment 
+
+  
+
+ This Sources Sought is part of the U.S. Government's market research efforts to identify capable vendors to provide: IT Equipment, Lab Equipment, and Furniture. The information gathered will help inform future procurement strategies and requirements, including whether to structure future solicitation(s) as a single combined RFQ or as separate group-specific awards. 
+
+  
+
+ This Sources Sought is issued solely for information and planning purposes and does not constitute a Request for Quotation (RFQ), Invitation for Bid (IFB), or Request for Proposal (RFP), nor a promise to issue one in the future. This notice does not commit the U.S. Government to contract for any supply or service. The U.S. Government is not seeking quotes, bids, or proposals at this time and will not accept unsolicited proposals in response to this notice. The U.S. Government will not pay for any information or administrative costs incurred in response to this notice. Submittals will not be returned to the responder. Not responding to this notice does not preclude participation in any future RFQ, IFB, or RFP, if any is issued. 
+
+  
+
+ The requirement is organized into three groups, each governed by its own draft Statement of Work (SOW): 
+
+ 
+	  Group 1 — IT Equipment:  Digital exploitation hardware and software, including forensic workstations, servers, network equipment, cameras, and forensic software licenses for CBP-CAMDEX, FBI-TEDAC1 and FBI-TEDAC2 (see draft SOW – IT Equipment).  Note:  The Government is concurrently evaluating this requirement against the NASA SEWP contract vehicle. This RFI serves as a contingency market research effort should procurement through NASA SEWP not be feasible. Group 1 will not be combined with Group 2 or Group 3 in any future solicitation. 
+	  Group 2 — Lab Equipment:  Specialized digital exploitation lab equipment, including soldering/rework stations, microscopes, ESD-safe tools and supplies, and related consumables for CBP-CAMDEX, FBI-TEDAC1 and FBI-TEDAC2 (see draft SOW – Lab Equipment). 
+	  Group 3 — Furniture:  Specialized lab furniture, including ESD-safe workbenches, chairs, drawers, and workstation components for CBP-CAMDEX and FBI-TEDAC1 (see draft SOW – Furniture). 
+ 
+
+  
+
+ The Government contemplates issuance of separate RFQ(s) as follows:  (a)  a standalone RFQ for Group 1 (IT Equipment), issued only if required as a contingency to the NASA SEWP procurement path; and  (b)  an RFQ permitting firms to quote on Group 2, Group 3, or both, with firms quoting on a given group required to provide all equipment types within that group.  Group 1 will not be combined with Group 2 or Group 3 under any circumstances.  
+
+  
+
+  Responding to this Sources Sought  
+
+ 
+	 Responses are limited to no more than 20 pages in length, using 14-point font. 
+	 The Government prefers responses in Microsoft Word, Adobe Acrobat, or a combination of both; documents must be searchable. 
+	 Please identify the following about your company:
+	 
+		 Name of Company, Unique Entity ID (UEI), and CAGE Code 
+		 Point of contact name, phone number, and email address 
+		 Business Type:
+		 
+			 Small Business 
+			 Small Disadvantaged Business 
+			 8(a) – certified Small Disadvantaged Business 
+			 HUBZone 
+			 Veteran Owned Small Business (VOSB) 
+			 Service-Disabled Veteran Owned Small Business (SDVOSB) 
+			 Woman Owned Small Business (WOSB) 
+			 Economically Disadvantaged Woman Owned Small Business (EDWOSB) 
+			 Other than small business 
+		 
+		 
+		 A brief overview of your company 
+		 Which group(s) you are responding to: IT Equipment, Lab Equipment, Furniture, or all three. 
+	 
+	 
+ 
+
+  
+
+ Respondents are encouraged to review the attached draft SOWs and associated Appendix A technical specifications for each group. 
+
+  
+
+  Questions for Industry  
+
+ Respondents should address the following in their responses: 
+
+ 
+	 This RFI does not propose a single NAICS code, as the Government does not believe one code adequately covers all three groups (IT Equipment, Lab Equipment, Furniture). For your proposed group(s), please recommend the NAICS code(s) you believe most appropriately apply, along with a brief rationale. If you believe different codes apply to different groups, please specify accordingly. 
+	 Group Capability: Please indicate which group(s) your company can fully support:
+	 
+		 Group 1 — IT Equipment (standalone only — will not be awarded in combination with Groups 2 or 3) 
+		 Group 2 — Lab Equipment 
+		 Group 3 — Furniture (may be combined with Group 2) 
+	 
+
+	 
+		 
+		 If your company can only fulfill a subset of items within a group, please specify which items and why. If responding to Group 1, please also indicate whether your company holds a NASA SEWP contract vehicle position, as the Government is evaluating that path as its primary procurement route for this group. 
+		 
+	 
+	 
+	 Brand Name Only / "Or Equal" Items: Several line items across all three groups are designated "Brand Name Only" (e.g., certain forensic software, JBC soldering tools). For items listed as "or equal," can your company propose equivalent products? Please describe your approach to demonstrating technical equivalency. 
+	 In-Country Warranty Compliance: Each SOW carries a mandatory in-country (Mexico) warranty requirement — a two-year, no-exception warranty for IT hardware, and an OEM in-country warranty for Lab Equipment and Furniture. Can your company meet these terms without modification, substitution, or exception? Does your company have an existing local partner or representative in Mexico to fulfill in-country warranty claims? 
+	 Delivery to Brownsville, TX: Can your company meet the 60-calendar-day delivery timeline to the Brownsville, TX receiving location for your proposed group(s)? Please describe estimated lead times and any anticipated logistical risks, including for items requiring special handling (e.g., forensic software licenses, ESD-sensitive lab equipment, or furniture requiring assembly). 
+	 Delivery Location — Feasibility Comparison: Please indicate which delivery scenario is more feasible for your company, and explain why:
+	 
+		  (a) Delivery to Brownsville, TX, with the U.S. Government handling subsequent importation into Mexico; or 
+		 (b) Direct delivery to a receiving location in Mexico City (CDMX), Mexico, with your company responsible for U.S. export compliance, Mexican importation, customs clearance, and acting as importer of record. 
+		 Please address estimated cost, lead time (including customs clearance time, if applicable to Option (b)), and any logistical risks associated with each option for your proposed group(s). For Option (b), please confirm whether your company can meet the 60-calendar-day delivery timeline; if not, please propose an alternative timeline. Please note: for Option (b), USG will not provide documentation, letters, or other support to facilitate export, import, or customs clearance; all such requirements would be the vendor's sole responsibility. If your company can only support Option (a), please state so. This will not affect the evaluation of your Brownsville, TX delivery capability. 
+	 
+	 
+	 Software License Delivery & Activation (IT Group only): For forensic and exploitation software licenses (e.g., FTK, Cellebrite, MSAB, Magnet Axiom), can your company provide secure electronic delivery, along with written installation instructions and technical support during end-user activation? Please describe your process for coordinating license registration with a government point of contact. 
+	 Sourcing and Distribution: Is your company an authorized distributor/reseller for the manufacturers specified across the three groups? Please identify any items where sourcing, lead time, or export/import controls may present a risk. 
+	 Packaging and End-User Segregation: Each SOW requires equipment to be packed and labeled separately by end user (CBP-CAMDEX, FBI-TEDAC1, FBI-TEDAC2) with no mixed merchandise. Can your company comply with this requirement? Please describe your packaging and labeling process. 
+	 Risks and Mitigation: Besides those addressed above, does your company identify any other risks or concerns in the draft SOWs (technical specifications, compatibility requirements between CLINs, delivery, or warranty terms)? Please provide detailed information and suggested mitigation. 
+	  NASA SEWP Status (Group 1 only): Is your company a current NASA SEWP contract holder? If so, under which SEWP contract number/category? If not, would your company be able to fulfill this requirement through a different contract vehicle or as a subcontractor to a SEWP holder? 
+ 
+
+  ​​​ 
+
+  Response Submission Deadline  
+
+ Please provide your responses to this Sources Sought by October 20, 2026. Sources Sought submissions will be accepted as email attachments only. All responses must be sent to Alexander Bring (BringAG@state.gov), with 19AQMM27NITLABFURN – IT, Lab, and Furniture in the subject line. 
