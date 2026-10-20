@@ -50,7 +50,8 @@ jobs:
             --robot \
             --term-sleep 3 \
             --page-sleep 1 \
-            --jitter 1.5
+            --jitter 1.5 \
+            --brand-attachments
 
       - name: Stage public site
         run: |
