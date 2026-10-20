@@ -97,6 +97,23 @@ class ScanNotice(unittest.TestCase):
         self.assertEqual(len([c for c in calls if c.endswith("/a")]), 1)
 
 
+class DownloadErrors(unittest.TestCase):
+    def test_failed_attachment_download_is_retried_next_run(self):
+        rec = {"notice_id": "n9", "title": "Digital Forensics Examiner Services"}
+        good = fake_get("<p>Examiner services.</p>", files=[("PWS.docx", docx("Magnet AXIOM and GrayKey licenses"))])
+
+        def flaky(url, **kw):
+            if "/files/" in url:
+                raise OSError("reset")
+            return good(url, **kw)
+        rec.update(brand_scan.scan_notice(rec, attachments=True, get=flaky, sleep=0))
+        self.assertEqual((rec["brand_terms"], rec["brand_scan"]["errors"]), ([], 1))
+        self.assertTrue(brand_scan.needs_scan(rec, attachments=True))
+        rec.update(brand_scan.scan_notice(rec, attachments=True, get=good, sleep=0))
+        self.assertEqual(rec["brand_terms"], ["Magnet AXIOM", "GrayKey"])
+        self.assertFalse(brand_scan.needs_scan(rec, attachments=True))
+
+
 class BodyTerms(unittest.TestCase):
     def row(self, title, desc):
         return {"_id": "n1", "title": title, "publishDate": "2026-10-10", "descriptions": [{"content": desc}],

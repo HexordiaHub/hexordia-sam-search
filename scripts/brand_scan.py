@@ -145,25 +145,36 @@ def fetch_description(notice_id: str, get: Callable[..., bytes] = _get) -> tuple
     return html_to_text(body), str(doc.get("modifiedDate") or "")
 
 
-def fetch_attachments(notice_id: str, get: Callable[..., bytes] = _get, sleep: float = 1.0) -> tuple[list[tuple[str, str]], list[str]]:
-    """-> ([(file name, text)], [skipped file names]). Public attachments only."""
+def fetch_attachments(notice_id: str, get: Callable[..., bytes] = _get, sleep: float = 1.0) -> tuple[list[tuple[str, str]], list[str], int]:
+    """-> ([(file name, text)], [skipped file names], download errors). Public attachments only."""
     doc = json.loads(get(RESOURCES_URL.format(id=notice_id)).decode("utf-8"))
     files = []
     for grp in ((doc.get("_embedded") or {}).get("opportunityAttachmentList") or []):
         for a in grp.get("attachments") or []:
             if a.get("type") == "file" and a.get("accessLevel") == "public" and str(a.get("deletedFlag") or "0") == "0":
                 files.append(a)
-    out, skipped = [], []
+    out, skipped, errors = [], [], 0
     for a in files[:MAX_ATTACHMENTS]:
         name = str(a.get("name") or "")
         if int(a.get("size") or 0) > MAX_ATTACHMENT_BYTES:
             skipped.append(name)
             continue
-        try:
-            data = get(FILE_URL.format(rid=a.get("resourceId")), accept="*/*", max_bytes=MAX_ATTACHMENT_BYTES)
-            text = attachment_text(name, data)
-        except Exception:  # noqa: BLE001 - one bad file must not stop the run
+        data = None
+        for attempt in range(2):                # one retry: sam.gov file downloads fail now and then
+            try:
+                data = get(FILE_URL.format(rid=a.get("resourceId")), accept="*/*", max_bytes=MAX_ATTACHMENT_BYTES)
+                break
+            except Exception:  # noqa: BLE001 - one bad file must not stop the run
+                if attempt == 0 and sleep:
+                    time.sleep(max(2.0, sleep))
+        if data is None:
+            errors += 1
             text = None
+        else:
+            try:
+                text = attachment_text(name, data)
+            except Exception:  # noqa: BLE001 - unreadable file: skip it
+                text = None
         if text is None:
             skipped.append(name)
         else:
@@ -171,7 +182,7 @@ def fetch_attachments(notice_id: str, get: Callable[..., bytes] = _get, sleep: f
         if sleep:
             time.sleep(sleep)
     skipped += [str(a.get("name") or "") for a in files[MAX_ATTACHMENTS:]]
-    return out, skipped
+    return out, skipped, errors
 
 
 def scan_notice(rec: dict[str, Any], *, attachments: bool = False, get: Callable[..., bytes] = _get,
@@ -190,8 +201,9 @@ def scan_notice(rec: dict[str, Any], *, attachments: bool = False, get: Callable
     desc, modified = fetch_description(nid, get)
     add(find_brands(desc), "description")
     skipped: list[str] = []
+    errors = 0
     if attachments:
-        files, skipped = fetch_attachments(nid, get, sleep=sleep)
+        files, skipped, errors = fetch_attachments(nid, get, sleep=sleep)
         for _name, text in files:
             add(find_brands(text), "attachment")
     order = [n for n, _ in BRANDS]
@@ -200,7 +212,7 @@ def scan_notice(rec: dict[str, Any], *, attachments: bool = False, get: Callable
         "brand_terms": names,
         "brand_where": {n: terms[n] for n in names},
         "brand_scan": {"version": SCAN_VERSION, "modified": modified, "attachments": bool(attachments),
-                       "skipped": skipped[:10], "at": datetime.now(timezone.utc).isoformat(timespec="seconds")},
+                       "skipped": skipped[:10], "errors": errors, "at": datetime.now(timezone.utc).isoformat(timespec="seconds")},
     }
 
 
@@ -210,6 +222,8 @@ def needs_scan(rec: dict[str, Any], *, attachments: bool) -> bool:
         return True
     if attachments and not prev.get("attachments"):
         return True
+    if prev.get("errors"):
+        return True                           # an attachment did not download: try again next run
     if rec.get("brand_terms"):
         return False                          # a brand match sticks
     # No match yet: look again after RESCAN_DAYS, so an amendment that adds a SOW is picked up.
