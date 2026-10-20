@@ -1,10 +1,11 @@
 {
   "date": "2026-10-20",
-  "saved_at": "2026-10-20T14:12:04.970526+00:00",
+  "saved_at": "2026-10-20T16:32:55.245318+00:00",
   "bucket": {
     "date": "2026-10-20",
     "runs": [
-      "2026-10-20_141035"
+      "2026-10-20_141035",
+      "2026-10-20_162138"
     ],
     "notice_keys": [
       "ec4f8de843434b68a7f7713668dfa319",
@@ -48,7 +49,10 @@
       "8a90b6c48ffd4db5a80ba08b5bf6727c",
       "4b5573eb2d204a3da30274361360b0ea",
       "3f351a2742454c4089313dacd2c321ad",
-      "5b149157dd5f45e18abcc5eeff7638e5"
+      "5b149157dd5f45e18abcc5eeff7638e5",
+      "584909c9678e4a41acb18094aea7d6a4",
+      "0fdfadcbac434a92acaaa6088246b856",
+      "0dfda835b6a74e5e8e17d89762305c4a"
     ],
     "new_notice_keys": [
       "ec4f8de843434b68a7f7713668dfa319",
@@ -58,7 +62,10 @@
       "a53d09065af541afaa71eeef6b5a0c5e",
       "aa24db01da394428a78cf36bfa231546",
       "1fab08878d644d1eb5596741cef26a99",
-      "d473fbfd56ee421f808711b5544958fc"
+      "d473fbfd56ee421f808711b5544958fc",
+      "584909c9678e4a41acb18094aea7d6a4",
+      "0fdfadcbac434a92acaaa6088246b856",
+      "0dfda835b6a74e5e8e17d89762305c4a"
     ]
   },
   "notices": {
@@ -82,7 +89,18 @@
       "last_seen_date": "2026-10-20",
       "seen_on_dates": [
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-20T12:31:27.719+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:23:25+00:00"
+      }
     },
     "7b9022cb16b64aae83cb8a89bea5d248": {
       "notice_id": "7b9022cb16b64aae83cb8a89bea5d248",
@@ -104,7 +122,20 @@
       "last_seen_date": "2026-10-20",
       "seen_on_dates": [
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-20T13:22:54.835+00:00",
+        "attachments": true,
+        "skipped": [
+          "A03 DD254 2026 - ATC Cyber Engineering and RMF.pdf"
+        ],
+        "errors": 0,
+        "at": "2026-10-20T16:23:33+00:00"
+      }
     },
     "60c3f2ff8776454ebfd2be964ff59b68": {
       "notice_id": "60c3f2ff8776454ebfd2be964ff59b68",
@@ -126,7 +157,18 @@
       "last_seen_date": "2026-10-20",
       "seen_on_dates": [
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-20T12:50:17.370+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:23:36+00:00"
+      }
     },
     "0be8714c04f542e2a400be46c2155c30": {
       "notice_id": "0be8714c04f542e2a400be46c2155c30",
@@ -149,7 +191,18 @@
       "seen_on_dates": [
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-19T09:02:09.627+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:23:39+00:00"
+      }
     },
     "23f8f23f5e6d4744b376584aac3743c7": {
       "notice_id": "23f8f23f5e6d4744b376584aac3743c7",
@@ -171,7 +224,18 @@
       "last_seen_date": "2026-10-20",
       "seen_on_dates": [
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-19T17:00:38.054+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:23:44+00:00"
+      }
     },
     "a53d09065af541afaa71eeef6b5a0c5e": {
       "notice_id": "a53d09065af541afaa71eeef6b5a0c5e",
@@ -193,7 +257,18 @@
       "last_seen_date": "2026-10-20",
       "seen_on_dates": [
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-19T16:47:05.530+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:23:46+00:00"
+      }
     },
     "aa24db01da394428a78cf36bfa231546": {
       "notice_id": "aa24db01da394428a78cf36bfa231546",
@@ -216,7 +291,18 @@
       "last_seen_date": "2026-10-20",
       "seen_on_dates": [
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-19T18:25:24.017+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:23:50+00:00"
+      }
     },
     "32a1f6bfd2464052953637645bfb8da8": {
       "notice_id": "32a1f6bfd2464052953637645bfb8da8",
@@ -239,7 +325,18 @@
       "seen_on_dates": [
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-19T14:37:19.342+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:23:53+00:00"
+      }
     },
     "1fab08878d644d1eb5596741cef26a99": {
       "notice_id": "1fab08878d644d1eb5596741cef26a99",
@@ -261,7 +358,18 @@
       "last_seen_date": "2026-10-20",
       "seen_on_dates": [
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-19T19:39:08.824+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:23:57+00:00"
+      }
     },
     "d473fbfd56ee421f808711b5544958fc": {
       "notice_id": "d473fbfd56ee421f808711b5544958fc",
@@ -283,7 +391,18 @@
       "last_seen_date": "2026-10-20",
       "seen_on_dates": [
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-19T16:44:29.865+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:23:58+00:00"
+      }
     },
     "e3b4685f4dd24cb2b5e0fba7a03586cd": {
       "notice_id": "e3b4685f4dd24cb2b5e0fba7a03586cd",
@@ -306,7 +425,18 @@
       "seen_on_dates": [
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-19T15:00:33.767+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:24:05+00:00"
+      }
     },
     "d2d7eae711a14923a0329665c110d326": {
       "notice_id": "d2d7eae711a14923a0329665c110d326",
@@ -329,7 +459,20 @@
       "seen_on_dates": [
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-19T11:20:30.692+00:00",
+        "attachments": true,
+        "skipped": [
+          "W911RQ-27-S-C001-A003 431 Fire Suppression Repair.pdf"
+        ],
+        "errors": 0,
+        "at": "2026-10-20T16:24:10+00:00"
+      }
     },
     "f4603f6aa068400cbde74db91b6e43bf": {
       "notice_id": "f4603f6aa068400cbde74db91b6e43bf",
@@ -354,7 +497,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-16T20:03:56.372+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:24:16+00:00"
+      }
     },
     "3250f44577624e03bb2dc6324e60bfd6": {
       "notice_id": "3250f44577624e03bb2dc6324e60bfd6",
@@ -379,7 +533,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-16T20:03:55.188+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:24:21+00:00"
+      }
     },
     "8ba2f8b6215647f59b41bb6c3f171afc": {
       "notice_id": "8ba2f8b6215647f59b41bb6c3f171afc",
@@ -405,7 +570,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-16T11:55:55.754+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:24:24+00:00"
+      }
     },
     "e073786a66354908a1dc9f00a8ba4b56": {
       "notice_id": "e073786a66354908a1dc9f00a8ba4b56",
@@ -430,7 +606,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-16T16:40:57.524+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:24:25+00:00"
+      }
     },
     "868ff6f5e4dc4589a2f8e07f3bbd2af0": {
       "notice_id": "868ff6f5e4dc4589a2f8e07f3bbd2af0",
@@ -456,7 +643,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-16T12:22:13.599+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:24:27+00:00"
+      }
     },
     "045e7a7863ff4ef2845155e13504c4c6": {
       "notice_id": "045e7a7863ff4ef2845155e13504c4c6",
@@ -481,7 +679,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-16T19:14:42.477+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:24:29+00:00"
+      }
     },
     "879358f6a15e4fc684dea36897e8a255": {
       "notice_id": "879358f6a15e4fc684dea36897e8a255",
@@ -507,7 +716,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-16T00:00:42.209+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:24:30+00:00"
+      }
     },
     "721c4aaa8ee34a9ba5f7a0ace045ce8c": {
       "notice_id": "721c4aaa8ee34a9ba5f7a0ace045ce8c",
@@ -532,7 +752,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-16T21:27:32.286+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:24:32+00:00"
+      }
     },
     "67712fa924984c3ab258022508290082": {
       "notice_id": "67712fa924984c3ab258022508290082",
@@ -557,7 +788,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-16T17:08:12.599+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:24:41+00:00"
+      }
     },
     "63b4a9f7babe4d3f85b503c5c02a8241": {
       "notice_id": "63b4a9f7babe4d3f85b503c5c02a8241",
@@ -583,7 +825,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-15T20:27:48.337+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:24:51+00:00"
+      }
     },
     "7b59a22732dd452ca9a04386363a9e15": {
       "notice_id": "7b59a22732dd452ca9a04386363a9e15",
@@ -609,7 +862,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-15T21:32:37.825+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:24:52+00:00"
+      }
     },
     "187fdac8e3c74ccf83e6255e16fa25cd": {
       "notice_id": "187fdac8e3c74ccf83e6255e16fa25cd",
@@ -635,7 +899,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-15T16:32:59.686+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:24:56+00:00"
+      }
     },
     "de22734a66d642f7a23e88d78cadf540": {
       "notice_id": "de22734a66d642f7a23e88d78cadf540",
@@ -661,7 +936,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-15T19:14:36.775+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:24:57+00:00"
+      }
     },
     "6fdec03a95f94f8a9e0d3816a40a8574": {
       "notice_id": "6fdec03a95f94f8a9e0d3816a40a8574",
@@ -687,7 +973,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-15T19:04:38.132+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:00+00:00"
+      }
     },
     "3ca926642758433f811696ed1f87b8b7": {
       "notice_id": "3ca926642758433f811696ed1f87b8b7",
@@ -714,7 +1011,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-15T13:33:08.781+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:02+00:00"
+      }
     },
     "04b6eadd3e50467d84da64459c17830e": {
       "notice_id": "04b6eadd3e50467d84da64459c17830e",
@@ -740,7 +1048,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-15T14:49:35.969+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:06+00:00"
+      }
     },
     "d37cbcc16a664fb0b0f4a25a150d9f56": {
       "notice_id": "d37cbcc16a664fb0b0f4a25a150d9f56",
@@ -767,7 +1086,17 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-14T20:16:11.000+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:07+00:00"
+      }
     },
     "4ff926a4ccdb444c972541d0c9ef3a7b": {
       "notice_id": "4ff926a4ccdb444c972541d0c9ef3a7b",
@@ -794,7 +1123,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-14T18:26:19.734+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:08+00:00"
+      }
     },
     "5bd0039af6cd48e48e494d2cf50ba5f0": {
       "notice_id": "5bd0039af6cd48e48e494d2cf50ba5f0",
@@ -821,7 +1161,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-14T18:09:10.696+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:14+00:00"
+      }
     },
     "e0ef04062f9c4b32833b5e196f831b1c": {
       "notice_id": "e0ef04062f9c4b32833b5e196f831b1c",
@@ -848,7 +1199,17 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-14T20:13:07.819+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:15+00:00"
+      }
     },
     "58927173fe23490d9801121d0e823a83": {
       "notice_id": "58927173fe23490d9801121d0e823a83",
@@ -882,7 +1243,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-09T14:30:02.476+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:17+00:00"
+      }
     },
     "3156da80a77f4ca5875402d5e0a34b9d": {
       "notice_id": "3156da80a77f4ca5875402d5e0a34b9d",
@@ -914,7 +1286,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-09T18:12:01.677+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:21+00:00"
+      }
     },
     "eb547082175b45d8b27e13b16e027cb1": {
       "notice_id": "eb547082175b45d8b27e13b16e027cb1",
@@ -947,7 +1330,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-08T23:20:46.536+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:33+00:00"
+      }
     },
     "1bde592dd03d4be397446ceacbcf3365": {
       "notice_id": "1bde592dd03d4be397446ceacbcf3365",
@@ -981,7 +1375,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-08T14:53:51.345+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:35+00:00"
+      }
     },
     "882fbe86b0e246fbad8e6a423343df9f": {
       "notice_id": "882fbe86b0e246fbad8e6a423343df9f",
@@ -1014,7 +1419,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-08T17:01:01.658+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:39+00:00"
+      }
     },
     "2aab3639718945f5b40d87c0d4cf3c75": {
       "notice_id": "2aab3639718945f5b40d87c0d4cf3c75",
@@ -1049,7 +1465,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-07T00:55:51.721+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:43+00:00"
+      }
     },
     "8a90b6c48ffd4db5a80ba08b5bf6727c": {
       "notice_id": "8a90b6c48ffd4db5a80ba08b5bf6727c",
@@ -1083,7 +1510,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-07T18:36:31.781+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:46+00:00"
+      }
     },
     "4b5573eb2d204a3da30274361360b0ea": {
       "notice_id": "4b5573eb2d204a3da30274361360b0ea",
@@ -1117,7 +1555,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-07T21:16:27.724+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:58+00:00"
+      }
     },
     "3f351a2742454c4089313dacd2c321ad": {
       "notice_id": "3f351a2742454c4089313dacd2c321ad",
@@ -1152,7 +1601,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-07T15:05:18.022+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:59+00:00"
+      }
     },
     "5b149157dd5f45e18abcc5eeff7638e5": {
       "notice_id": "5b149157dd5f45e18abcc5eeff7638e5",
@@ -1188,7 +1648,128 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-06T12:50:31.045+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:26:02+00:00"
+      }
+    },
+    "584909c9678e4a41acb18094aea7d6a4": {
+      "notice_id": "584909c9678e4a41acb18094aea7d6a4",
+      "title": "PEO-M Undersea Test Shape and Cradle Assessment Event (AE)",
+      "solicitation_number": "PEO_M_Undersea_Test__Shape_and_Cradle_AE",
+      "posted_date": "2026-10-20",
+      "type": "Special Notice",
+      "response_deadline": "2026-11-18T04:59:00+00:00",
+      "naics": "",
+      "active": "Yes",
+      "organization": "DEPT OF DEFENSE",
+      "matched_terms": [
+        "SOFWERX"
+      ],
+      "body_terms": [],
+      "award_amount": "",
+      "awardee": "",
+      "url": "https://sam.gov/opp/584909c9678e4a41acb18094aea7d6a4/view",
+      "first_seen_date": "2026-10-20",
+      "last_seen_date": "2026-10-20",
+      "seen_on_dates": [
+        "2026-10-20"
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-20T14:51:46.276+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:26:03+00:00"
+      }
+    },
+    "0fdfadcbac434a92acaaa6088246b856": {
+      "notice_id": "0fdfadcbac434a92acaaa6088246b856",
+      "title": "Lodging Spokane WA",
+      "solicitation_number": "FY27-0012503534",
+      "posted_date": "2026-10-20",
+      "type": "Combined Synopsis/Solicitation",
+      "response_deadline": "2026-10-30T16:00:00+00:00",
+      "naics": "",
+      "active": "Yes",
+      "organization": "DEPT OF DEFENSE.DEPT OF THE ARMY.NGB.W7N6 USPFO ACTIVITY WA ARNG",
+      "matched_terms": [
+        "Cyber"
+      ],
+      "body_terms": [],
+      "award_amount": "",
+      "awardee": "",
+      "url": "https://sam.gov/opp/0fdfadcbac434a92acaaa6088246b856/view",
+      "first_seen_date": "2026-10-20",
+      "last_seen_date": "2026-10-20",
+      "seen_on_dates": [
+        "2026-10-20"
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-20T15:39:15.354+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:26:06+00:00"
+      }
+    },
+    "0dfda835b6a74e5e8e17d89762305c4a": {
+      "notice_id": "0dfda835b6a74e5e8e17d89762305c4a",
+      "title": "Combined Synopsis/Solicitation for Commercial Items Agile Professional Services (\"APS\u201d) Department of the Army",
+      "solicitation_number": "W900KK-26-R-A023",
+      "posted_date": "2026-10-20",
+      "type": "Combined Synopsis/Solicitation",
+      "response_deadline": "2026-10-26T03:59:00+00:00",
+      "naics": "",
+      "active": "Yes",
+      "organization": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-ORL.W6QK ACC-ORLANDO",
+      "matched_terms": [
+        "Cyber"
+      ],
+      "body_terms": [],
+      "award_amount": "",
+      "awardee": "",
+      "url": "https://sam.gov/opp/0dfda835b6a74e5e8e17d89762305c4a/view",
+      "first_seen_date": "2026-10-20",
+      "last_seen_date": "2026-10-20",
+      "seen_on_dates": [
+        "2026-10-20"
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-20T14:37:37.869+00:00",
+        "attachments": true,
+        "skipped": [
+          "Attachment 4.b _ WD 2015-4553 REV 31 20260730 FL_9.18.2026.pdf",
+          "Attachment 4.c _ WD 2015-4603 REV 34 20260820 AL_9.18.2026.pdf",
+          "Attachment 4.d _ WD 2015-4631 REV 34 20260812 AL_9.18.2026.pdf",
+          "Attachment 4.e - WD 2015-4675 REV 30 20260822 KY.pdf",
+          "Attachment 4.f _ WD 2015-5197 REV 33 20260812 LA_9.18.2026.pdf",
+          "Attachment 4.g _ WD 2015-5237 REV 32 20260812 TX_9.18.2026.pdf",
+          "Attachment 4.h _ WD 2015-5629 REV 29 20260513 CA_9.18.2026.pdf",
+          "Attachment 4.i _ WD 2015-5775 REV 32 20260812 NY_9.18.2026.pdf",
+          "Attachment 5 _ PWS Template Agile professional Services 20261001.docx",
+          "Attachment 6 _ Quality_Assurance_Surveillance_Plan_(QASP)_Proposal_Template_-_APS_20260903.docx"
+        ],
+        "errors": 0,
+        "at": "2026-10-20T16:26:15+00:00"
+      }
     }
   }
 }

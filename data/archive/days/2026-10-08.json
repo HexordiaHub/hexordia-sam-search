@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "saved_at": "2026-10-20T14:12:04.970526+00:00",
+  "saved_at": "2026-10-20T16:32:55.245318+00:00",
   "bucket": {
     "date": "2026-10-08",
     "runs": [
@@ -105,7 +105,17 @@
         "2026-10-11",
         "2026-10-12",
         "2026-10-13"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-13T17:27:44.976+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:29:54+00:00"
+      }
     },
     "314c7583bc5f4901af3ec467066e32ee": {
       "notice_id": "314c7583bc5f4901af3ec467066e32ee",
@@ -134,7 +144,19 @@
         "2026-10-13",
         "2026-10-14",
         "2026-10-15"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-08T12:59:42.824+00:00",
+        "attachments": true,
+        "skipped": [
+          "DRAFT dd0254.pdf"
+        ],
+        "errors": 0,
+        "at": "2026-10-20T16:30:04+00:00"
+      }
     },
     "1bde592dd03d4be397446ceacbcf3365": {
       "notice_id": "1bde592dd03d4be397446ceacbcf3365",
@@ -168,7 +190,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-08T14:53:51.345+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:35+00:00"
+      }
     },
     "2aab3639718945f5b40d87c0d4cf3c75": {
       "notice_id": "2aab3639718945f5b40d87c0d4cf3c75",
@@ -203,7 +236,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-07T00:55:51.721+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:43+00:00"
+      }
     },
     "cb98a30737b04cf5ba47f1d69d39b847": {
       "notice_id": "cb98a30737b04cf5ba47f1d69d39b847",
@@ -232,7 +276,17 @@
         "2026-10-13",
         "2026-10-14",
         "2026-10-15"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-07T17:06:31.672+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:30:07+00:00"
+      }
     },
     "4b319841863e4b42b1ad088a8875027b": {
       "notice_id": "4b319841863e4b42b1ad088a8875027b",
@@ -262,7 +316,17 @@
         "2026-10-13",
         "2026-10-14",
         "2026-10-15"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-07T14:04:41.323+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:29:32+00:00"
+      }
     },
     "8a90b6c48ffd4db5a80ba08b5bf6727c": {
       "notice_id": "8a90b6c48ffd4db5a80ba08b5bf6727c",
@@ -296,7 +360,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-07T18:36:31.781+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:46+00:00"
+      }
     },
     "bc0c51df19d94fe384bba148a9028ed4": {
       "notice_id": "bc0c51df19d94fe384bba148a9028ed4",
@@ -326,7 +401,17 @@
         "2026-10-13",
         "2026-10-14",
         "2026-10-15"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-07T14:51:49.258+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:29:35+00:00"
+      }
     },
     "4b5573eb2d204a3da30274361360b0ea": {
       "notice_id": "4b5573eb2d204a3da30274361360b0ea",
@@ -360,7 +445,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-07T21:16:27.724+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:58+00:00"
+      }
     },
     "e3849a58e9d04497bbb92c3c41f1283f": {
       "notice_id": "e3849a58e9d04497bbb92c3c41f1283f",
@@ -389,7 +485,17 @@
         "2026-10-13",
         "2026-10-14",
         "2026-10-15"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-07T21:04:45.132+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:30:15+00:00"
+      }
     },
     "116741b5cb5a42b992e366c00c37ba94": {
       "notice_id": "116741b5cb5a42b992e366c00c37ba94",
@@ -412,7 +518,19 @@
       "seen_on_dates": [
         "2026-10-08",
         "2026-10-09"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-09T17:03:35.113+00:00",
+        "attachments": true,
+        "skipped": [
+          "Attachment 4 Past Performance Survey.doc"
+        ],
+        "errors": 0,
+        "at": "2026-10-20T16:30:22+00:00"
+      }
     },
     "5aba6767d15c4876b5bf0b419866d003": {
       "notice_id": "5aba6767d15c4876b5bf0b419866d003",
@@ -434,7 +552,28 @@
       "last_seen_date": "2026-10-08",
       "seen_on_dates": [
         "2026-10-08"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-08T23:00:12.412+00:00",
+        "attachments": true,
+        "skipped": [
+          "APS _ Combined Synopsis Solicitation _ 9.21.2026.docx",
+          "Attachment 1 _ SOO_Agile_Professional_Services_20260908.docx",
+          "Attachment 2 _ 52.212-1 Instructions to Offerors\u2014Commercial Products and Commercial Services_9.18.2026.docx",
+          "Attachment 3 _ 52.212-2 Evaluation\u2014Commercial Products and Commercial Services_9.18.2026.docx",
+          "Attachment 4.c _ WD 2015-4603 REV 34 20260820 AL_9.18.2026.pdf",
+          "Attachment 4.d _ WD 2015-4631 REV 34 20260812 AL_9.18.2026.pdf",
+          "Attachment 4.e _ WD 2015-4719 REV 34 20260812 KY_9.18.2026.pdf",
+          "Attachment 4.f _ WD 2015-5197 REV 33 20260812 LA_9.18.2026.pdf",
+          "Attachment 4.g _ WD 2015-5237 REV 32 20260812 TX_9.18.2026.pdf",
+          "Attachment 4.h _ WD 2015-5629 REV 29 20260513 CA_9.18.2026.pdf"
+        ],
+        "errors": 4,
+        "at": "2026-10-20T16:30:39+00:00"
+      }
     },
     "3f351a2742454c4089313dacd2c321ad": {
       "notice_id": "3f351a2742454c4089313dacd2c321ad",
@@ -469,7 +608,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-07T15:05:18.022+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:25:59+00:00"
+      }
     },
     "a5bf11133d5b49048d5beb1a65af4578": {
       "notice_id": "a5bf11133d5b49048d5beb1a65af4578",
@@ -498,7 +648,17 @@
         "2026-10-13",
         "2026-10-14",
         "2026-10-15"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-07T20:33:48.946+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:30:42+00:00"
+      }
     },
     "5b149157dd5f45e18abcc5eeff7638e5": {
       "notice_id": "5b149157dd5f45e18abcc5eeff7638e5",
@@ -534,7 +694,18 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20"
-      ]
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-06T12:50:31.045+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:26:02+00:00"
+      }
     },
     "1cd3e5f7b2cb44c6a5bbbc973d41e9f5": {
       "notice_id": "1cd3e5f7b2cb44c6a5bbbc973d41e9f5",
@@ -564,7 +735,19 @@
         "2026-10-12",
         "2026-10-13",
         "2026-10-14"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-06T14:02:39.615+00:00",
+        "attachments": true,
+        "skipped": [
+          "NSWCDD_Industry Day Quad Chart Template_Sept2026.pptx"
+        ],
+        "errors": 0,
+        "at": "2026-10-20T16:28:58+00:00"
+      }
     },
     "fbb2436ff3644fe18c369b9ad258ceab": {
       "notice_id": "fbb2436ff3644fe18c369b9ad258ceab",
@@ -594,7 +777,17 @@
         "2026-10-13",
         "2026-10-14",
         "2026-10-15"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-19T11:20:30.688+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:29:52+00:00"
+      }
     },
     "b1cd8f04ac3c421186613835b95cff03": {
       "notice_id": "b1cd8f04ac3c421186613835b95cff03",
@@ -629,7 +822,17 @@
         "2026-10-17",
         "2026-10-18",
         "2026-10-19"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-05T17:15:51.934+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:28:33+00:00"
+      }
     },
     "a2ef542655a54731a6e47d6aad6ff0bd": {
       "notice_id": "a2ef542655a54731a6e47d6aad6ff0bd",
@@ -659,7 +862,17 @@
         "2026-10-12",
         "2026-10-13",
         "2026-10-14"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-05T18:18:55.563+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:29:01+00:00"
+      }
     },
     "0beda0aeb1034819ba5bceb6fe64ed72": {
       "notice_id": "0beda0aeb1034819ba5bceb6fe64ed72",
@@ -694,7 +907,17 @@
         "2026-10-17",
         "2026-10-18",
         "2026-10-19"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-05T19:50:28.749+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:29:02+00:00"
+      }
     },
     "b0553e980db04597a43daa6e4c8c620a": {
       "notice_id": "b0553e980db04597a43daa6e4c8c620a",
@@ -722,7 +945,17 @@
         "2026-10-10",
         "2026-10-11",
         "2026-10-12"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-05T13:09:28.731+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:28:34+00:00"
+      }
     },
     "f7d684954d7147f0a993161e6f58d9d1": {
       "notice_id": "f7d684954d7147f0a993161e6f58d9d1",
@@ -759,7 +992,41 @@
         "2026-10-17",
         "2026-10-18",
         "2026-10-19"
-      ]
+      ],
+      "brand_terms": [
+        "Magnet AXIOM",
+        "GrayKey",
+        "MSAB",
+        "XRY",
+        "XAMN"
+      ],
+      "brand_where": {
+        "Magnet AXIOM": [
+          "description",
+          "attachment"
+        ],
+        "GrayKey": [
+          "attachment"
+        ],
+        "MSAB": [
+          "description",
+          "attachment"
+        ],
+        "XRY": [
+          "attachment"
+        ],
+        "XAMN": [
+          "attachment"
+        ]
+      },
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-05T18:00:46.417+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:28:39+00:00"
+      }
     },
     "f47278c8e75c47d9a1d1206f909285ac": {
       "notice_id": "f47278c8e75c47d9a1d1206f909285ac",
@@ -794,7 +1061,19 @@
         "2026-10-17",
         "2026-10-18",
         "2026-10-19"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-05T14:35:08.433+00:00",
+        "attachments": true,
+        "skipped": [
+          "Cover Letter.pdf"
+        ],
+        "errors": 0,
+        "at": "2026-10-20T16:28:50+00:00"
+      }
     },
     "f237f39b066940f28d8b352144ecd48a": {
       "notice_id": "f237f39b066940f28d8b352144ecd48a",
@@ -824,7 +1103,17 @@
         "2026-10-12",
         "2026-10-13",
         "2026-10-14"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-05T18:19:44.834+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:29:12+00:00"
+      }
     },
     "6667ae0b37b74fac95c3bda30f60d8c6": {
       "notice_id": "6667ae0b37b74fac95c3bda30f60d8c6",
@@ -854,7 +1143,17 @@
         "2026-10-12",
         "2026-10-13",
         "2026-10-14"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-05T20:41:45.474+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:29:19+00:00"
+      }
     },
     "6bcce9d3cbb540b882624677d1dd39a2": {
       "notice_id": "6bcce9d3cbb540b882624677d1dd39a2",
@@ -884,7 +1183,17 @@
         "2026-10-12",
         "2026-10-13",
         "2026-10-14"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-05T22:10:17.038+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:29:24+00:00"
+      }
     },
     "ee6190e2c1b44a29997a1286254d8dab": {
       "notice_id": "ee6190e2c1b44a29997a1286254d8dab",
@@ -919,7 +1228,17 @@
         "2026-10-17",
         "2026-10-18",
         "2026-10-19"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-05T19:26:02.448+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:29:30+00:00"
+      }
     },
     "10ada1d6620948d597565475533d66a1": {
       "notice_id": "10ada1d6620948d597565475533d66a1",
@@ -948,7 +1267,17 @@
         "2026-10-11",
         "2026-10-12",
         "2026-10-13"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-05T18:17:54.673+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:29:31+00:00"
+      }
     },
     "ebe49f9c23b64c339a77483a3912be87": {
       "notice_id": "ebe49f9c23b64c339a77483a3912be87",
@@ -976,7 +1305,17 @@
         "2026-10-10",
         "2026-10-11",
         "2026-10-12"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-05T17:59:59.558+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:28:51+00:00"
+      }
     },
     "ea22432c52f8458b990566970bcfd3db": {
       "notice_id": "ea22432c52f8458b990566970bcfd3db",
@@ -1008,7 +1347,17 @@
         "2026-10-14",
         "2026-10-15",
         "2026-10-16"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-02T18:11:55.881+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:28:28+00:00"
+      }
     },
     "afbe1548895e4d15bfbc8232396ad714": {
       "notice_id": "afbe1548895e4d15bfbc8232396ad714",
@@ -1036,7 +1385,17 @@
         "2026-10-10",
         "2026-10-11",
         "2026-10-12"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-02T17:31:34.582+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:28:29+00:00"
+      }
     },
     "7c8c823940904c8c9af2c3507b58e6e8": {
       "notice_id": "7c8c823940904c8c9af2c3507b58e6e8",
@@ -1061,7 +1420,17 @@
         "2026-10-07",
         "2026-10-08",
         "2026-10-09"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-02T13:04:38.943+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:28:15+00:00"
+      }
     },
     "9f54786315fc4a1a9eee596afc3d5104": {
       "notice_id": "9f54786315fc4a1a9eee596afc3d5104",
@@ -1093,7 +1462,17 @@
         "2026-10-14",
         "2026-10-15",
         "2026-10-16"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-02T13:14:20.890+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:28:18+00:00"
+      }
     },
     "00ec26b6099e4bfb9309f56cd669ea13": {
       "notice_id": "00ec26b6099e4bfb9309f56cd669ea13",
@@ -1121,7 +1500,17 @@
         "2026-10-10",
         "2026-10-11",
         "2026-10-12"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-02T16:56:44.887+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:28:32+00:00"
+      }
     },
     "d6491df7d2f04213b1330e1e96e99cbc": {
       "notice_id": "d6491df7d2f04213b1330e1e96e99cbc",
@@ -1145,7 +1534,17 @@
         "2026-10-06",
         "2026-10-07",
         "2026-10-08"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-15T16:48:53.412+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:28:19+00:00"
+      }
     },
     "5fa8ceaca1db4f209c6b552b785d0120": {
       "notice_id": "5fa8ceaca1db4f209c6b552b785d0120",
@@ -1176,7 +1575,17 @@
         "2026-10-13",
         "2026-10-14",
         "2026-10-15"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-16T05:07:21.317+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:28:21+00:00"
+      }
     },
     "3d6be830a9e24318b970de06c1a049f3": {
       "notice_id": "3d6be830a9e24318b970de06c1a049f3",
@@ -1200,7 +1609,17 @@
         "2026-10-06",
         "2026-10-07",
         "2026-10-08"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-01T17:04:08.006+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:28:24+00:00"
+      }
     },
     "d4946c8cf99c41d78a2e56c7679b2cc5": {
       "notice_id": "d4946c8cf99c41d78a2e56c7679b2cc5",
@@ -1231,7 +1650,17 @@
         "2026-10-13",
         "2026-10-14",
         "2026-10-15"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-01T12:39:11.875+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:27:59+00:00"
+      }
     },
     "f0ca897574cf4553b58e37d3ccfc7ef2": {
       "notice_id": "f0ca897574cf4553b58e37d3ccfc7ef2",
@@ -1255,7 +1684,17 @@
         "2026-10-06",
         "2026-10-07",
         "2026-10-08"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-16T12:22:13.594+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:28:04+00:00"
+      }
     },
     "cec87c871d5f4921a791ce40fd62fe72": {
       "notice_id": "cec87c871d5f4921a791ce40fd62fe72",
@@ -1279,7 +1718,17 @@
         "2026-10-06",
         "2026-10-07",
         "2026-10-08"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-01T19:36:39.989+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:28:27+00:00"
+      }
     },
     "61ff4db1f8d544cd9843908ac3295af1": {
       "notice_id": "61ff4db1f8d544cd9843908ac3295af1",
@@ -1309,7 +1758,17 @@
         "2026-10-12",
         "2026-10-13",
         "2026-10-14"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-09-30T12:19:28.542+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:27:46+00:00"
+      }
     },
     "e70989c31eb3487bb1eeb1883cfdfbcd": {
       "notice_id": "e70989c31eb3487bb1eeb1883cfdfbcd",
@@ -1339,7 +1798,17 @@
         "2026-10-11",
         "2026-10-12",
         "2026-10-13"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-09-29T15:20:28.500+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:27:21+00:00"
+      }
     },
     "7d434dab4914473ca2d4a3c93d45b665": {
       "notice_id": "7d434dab4914473ca2d4a3c93d45b665",
@@ -1368,7 +1837,21 @@
         "2026-10-11",
         "2026-10-12",
         "2026-10-13"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-09-29T19:13:16.327+00:00",
+        "attachments": true,
+        "skipped": [
+          "Cover Notice.pdf",
+          "Attachment 2_Past_Performance_Questionnaire_PPQ.pdf",
+          "II_1 RFP 205AE9-26-Q-00053 August 2026 phased 9.pdf"
+        ],
+        "errors": 0,
+        "at": "2026-10-20T16:27:57+00:00"
+      }
     },
     "021438732495484684e7ca17e73bcb46": {
       "notice_id": "021438732495484684e7ca17e73bcb46",
@@ -1393,7 +1876,17 @@
         "2026-10-07",
         "2026-10-08",
         "2026-10-09"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-10T05:07:16.410+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:27:22+00:00"
+      }
     },
     "adf588be455d4ef88d4967cd912168a7": {
       "notice_id": "adf588be455d4ef88d4967cd912168a7",
@@ -1418,7 +1911,17 @@
         "2026-10-07",
         "2026-10-08",
         "2026-10-09"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-10T05:07:16.410+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:27:23+00:00"
+      }
     },
     "7f142162092a47f5a0e50a1894d217bf": {
       "notice_id": "7f142162092a47f5a0e50a1894d217bf",
@@ -1446,7 +1949,17 @@
         "2026-10-10",
         "2026-10-11",
         "2026-10-12"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-09-28T18:14:50.388+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:27:26+00:00"
+      }
     },
     "d84377315e604d14891c874513171a04": {
       "notice_id": "d84377315e604d14891c874513171a04",
@@ -1474,7 +1987,17 @@
         "2026-10-10",
         "2026-10-11",
         "2026-10-12"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-09-28T18:16:13.529+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:27:28+00:00"
+      }
     },
     "c6f114f657324ed2bf8920c7abc3223d": {
       "notice_id": "c6f114f657324ed2bf8920c7abc3223d",
@@ -1502,7 +2025,20 @@
         "2026-10-10",
         "2026-10-11",
         "2026-10-12"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-09-28T20:56:29.613+00:00",
+        "attachments": true,
+        "skipped": [
+          "19GE5026Q0035-Attachment-6-Instructions-on-Form-W-14.pdf",
+          "19GE5026Q0035-Attachment-7-SAM-Quick-Start-Guide for International Registrations.pdf"
+        ],
+        "errors": 0,
+        "at": "2026-10-20T16:27:40+00:00"
+      }
     },
     "265c6bb6212643fd87e915bef3035c68": {
       "notice_id": "265c6bb6212643fd87e915bef3035c68",
@@ -1526,7 +2062,17 @@
         "2026-10-06",
         "2026-10-07",
         "2026-10-08"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-08T23:20:46.531+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:27:08+00:00"
+      }
     },
     "2022149fc08a4dc9bbcce8577e2f3179": {
       "notice_id": "2022149fc08a4dc9bbcce8577e2f3179",
@@ -1551,7 +2097,17 @@
         "2026-10-07",
         "2026-10-08",
         "2026-10-09"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-09-25T15:36:32.648+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:27:11+00:00"
+      }
     },
     "c859ad891bb14c22b3acdb1316f2b75f": {
       "notice_id": "c859ad891bb14c22b3acdb1316f2b75f",
@@ -1576,7 +2132,17 @@
         "2026-10-07",
         "2026-10-08",
         "2026-10-09"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-10T05:07:16.410+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:27:13+00:00"
+      }
     },
     "5924adbef41a4c5394f3f2a21dfaf190": {
       "notice_id": "5924adbef41a4c5394f3f2a21dfaf190",
@@ -1603,7 +2169,27 @@
         "2026-10-07",
         "2026-10-08",
         "2026-10-09"
-      ]
+      ],
+      "brand_terms": [
+        "Magnet AXIOM",
+        "GrayKey"
+      ],
+      "brand_where": {
+        "Magnet AXIOM": [
+          "attachment"
+        ],
+        "GrayKey": [
+          "attachment"
+        ]
+      },
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-17T05:08:15.201+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:27:17+00:00"
+      }
     },
     "42722e1c74504974b7002f9ee978c995": {
       "notice_id": "42722e1c74504974b7002f9ee978c995",
@@ -1628,7 +2214,17 @@
         "2026-10-07",
         "2026-10-08",
         "2026-10-09"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-10T05:07:16.410+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:27:18+00:00"
+      }
     },
     "c9377aa602064f969cdfa6be3963cde8": {
       "notice_id": "c9377aa602064f969cdfa6be3963cde8",
@@ -1652,7 +2248,17 @@
         "2026-10-06",
         "2026-10-07",
         "2026-10-08"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-09-24T15:29:05.129+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:26:51+00:00"
+      }
     },
     "fe04b4bf94724141a33857461cdfe799": {
       "notice_id": "fe04b4bf94724141a33857461cdfe799",
@@ -1676,7 +2282,17 @@
         "2026-10-06",
         "2026-10-07",
         "2026-10-08"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-09-24T14:50:22.583+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:26:54+00:00"
+      }
     },
     "11215d725f4846e296fcdede82e45696": {
       "notice_id": "11215d725f4846e296fcdede82e45696",
@@ -1700,7 +2316,17 @@
         "2026-10-06",
         "2026-10-07",
         "2026-10-08"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-09-24T12:48:25.381+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:26:39+00:00"
+      }
     },
     "53d3fc22ebe34e04bf68d5eae26eb259": {
       "notice_id": "53d3fc22ebe34e04bf68d5eae26eb259",
@@ -1725,7 +2351,17 @@
         "2026-10-06",
         "2026-10-07",
         "2026-10-08"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-09-24T15:29:13.732+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:26:57+00:00"
+      }
     },
     "e835ac7597804441bcba3c56ab8baeee": {
       "notice_id": "e835ac7597804441bcba3c56ab8baeee",
@@ -1749,7 +2385,17 @@
         "2026-10-06",
         "2026-10-07",
         "2026-10-08"
-      ]
+      ],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-10T05:07:16.410+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:26:58+00:00"
+      }
     }
   }
 }
