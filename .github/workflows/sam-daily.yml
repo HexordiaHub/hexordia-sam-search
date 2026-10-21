@@ -1,9 +1,11 @@
 name: SAM daily search
 
 on:
-  schedule:
-    # ≈ 04:00 EST / 05:00 EDT
-    - cron: "0 9 * * *"
+  # Schedule disabled after migration to HexordiaHub/hexordia-sam-search.
+  # Re-enable (uncomment the 3 lines below) once a manual workflow_dispatch run succeeds.
+  # schedule:
+  #   # ≈ 04:00 EST / 05:00 EDT
+  #   - cron: "0 9 * * *"
   workflow_dispatch:
     inputs:
       days:
