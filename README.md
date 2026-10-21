@@ -18,7 +18,7 @@ Low-profile path (`/v/`), `noindex`, robots disallow. Content is public SAM.gov 
 3. **Settings → Actions → General → Workflow permissions:** Read and write  
 4. **Actions → SAM daily search → Run workflow** (first run)
 
-Schedule: `0 9 * * *` UTC (≈ 04:00 EST / 05:00 EDT). **Currently disabled** in `.github/workflows/sam-daily.yml` after the migration from the old public repo; re-enable after a successful manual run.
+Schedule: `0 9 * * *` UTC (≈ 04:00 EST / 05:00 EDT).
 
 CI uses **moderate pacing** (`--robot`, ~3s between terms — typically a few minutes, not ~20). Local runs can use slower human pacing if you prefer.
 
