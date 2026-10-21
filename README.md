@@ -6,8 +6,8 @@ Automated SAM.gov opportunity keyword checks. Produces Excel + HTML reports.
 
 After GitHub Pages is enabled and a workflow has run:
 
-- HTML: https://biscuitdh.github.io/44aa9566-3f78-4f70-9255-8cc9b8d7e019/v/
-- Excel: https://biscuitdh.github.io/44aa9566-3f78-4f70-9255-8cc9b8d7e019/v/SAM-daily-latest.xlsx
+- HTML: https://hexordiahub.github.io/hexordia-sam-search/v/
+- Excel: https://hexordiahub.github.io/hexordia-sam-search/v/SAM-daily-latest.xlsx
 
 Low-profile path (`/v/`), `noindex`, robots disallow. Content is public SAM.gov notice metadata only.
 
@@ -18,15 +18,15 @@ Low-profile path (`/v/`), `noindex`, robots disallow. Content is public SAM.gov 
 3. **Settings → Actions → General → Workflow permissions:** Read and write  
 4. **Actions → SAM daily search → Run workflow** (first run)
 
-Schedule: `0 9 * * *` UTC (≈ 04:00 EST / 05:00 EDT).
+Schedule: `0 9 * * *` UTC (≈ 04:00 EST / 05:00 EDT). **Currently disabled** in `.github/workflows/sam-daily.yml` after the migration from the old public repo; re-enable after a successful manual run.
 
 CI uses **moderate pacing** (`--robot`, ~3s between terms — typically a few minutes, not ~20). Local runs can use slower human pacing if you prefer.
 
 ## Local (optional)
 
 ```bash
-git clone https://github.com/biscuitdh/44aa9566-3f78-4f70-9255-8cc9b8d7e019.git
-cd 44aa9566-3f78-4f70-9255-8cc9b8d7e019
+git clone https://github.com/HexordiaHub/hexordia-sam-search.git
+cd hexordia-sam-search
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 cp .env.example .env   # add SAM_API_KEY if using API mode
 .venv/bin/python scripts/sam_search.py --days 1 --source both --no-latest-sync
