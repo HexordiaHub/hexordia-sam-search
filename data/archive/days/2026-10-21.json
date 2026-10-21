@@ -1,10 +1,11 @@
 {
   "date": "2026-10-21",
-  "saved_at": "2026-10-21T01:31:43.265797+00:00",
+  "saved_at": "2026-10-21T09:30:30.625506+00:00",
   "bucket": {
     "date": "2026-10-21",
     "runs": [
-      "2026-10-21_012830"
+      "2026-10-21_012830",
+      "2026-10-21_092743"
     ],
     "notice_keys": [
       "66f61ddb3bc341169d353d436113fc7c",
@@ -48,7 +49,8 @@
       "2aab3639718945f5b40d87c0d4cf3c75",
       "8a90b6c48ffd4db5a80ba08b5bf6727c",
       "4b5573eb2d204a3da30274361360b0ea",
-      "3f351a2742454c4089313dacd2c321ad"
+      "3f351a2742454c4089313dacd2c321ad",
+      "187fdac8e3c74ccf83e6255e16fa25cd"
     ],
     "new_notice_keys": [
       "66f61ddb3bc341169d353d436113fc7c",
@@ -1662,6 +1664,44 @@
         "skipped": [],
         "errors": 0,
         "at": "2026-10-20T16:25:59+00:00"
+      }
+    },
+    "187fdac8e3c74ccf83e6255e16fa25cd": {
+      "notice_id": "187fdac8e3c74ccf83e6255e16fa25cd",
+      "title": "Senior Cybercrime Advisor",
+      "solicitation_number": "PSC-27-004-INL",
+      "posted_date": "2026-10-15",
+      "type": "Combined Synopsis/Solicitation",
+      "response_deadline": "2026-10-29T19:00:00+00:00",
+      "naics": "",
+      "active": "Yes",
+      "organization": "STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.ACQUISITIONS - INL",
+      "matched_terms": [
+        "Cyber"
+      ],
+      "award_amount": "",
+      "awardee": "",
+      "url": "https://sam.gov/opp/187fdac8e3c74ccf83e6255e16fa25cd/view",
+      "first_seen_date": "2026-10-16",
+      "last_seen_date": "2026-10-21",
+      "seen_on_dates": [
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21"
+      ],
+      "body_terms": [],
+      "brand_terms": [],
+      "brand_where": {},
+      "brand_scan": {
+        "version": 1,
+        "modified": "2026-10-15T16:32:59.686+00:00",
+        "attachments": true,
+        "skipped": [],
+        "errors": 0,
+        "at": "2026-10-20T16:24:56+00:00"
       }
     }
   }
