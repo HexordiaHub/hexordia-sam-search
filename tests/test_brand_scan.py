@@ -50,6 +50,8 @@ class FindBrands(unittest.TestCase):
             "Griffeye Analyze DI Pro": ["Griffeye"],
             "graykey GRAYKEY Gray Key": ["GrayKey"],
             "MSABX, XRYLENE, AXIOMATIC, magnetic review": [],
+            "County Lumyx training and VeraKey renewal": ["VeraKey", "Lumyx"],
+            "Verakey device for mobile extraction": ["VeraKey"],
         }
         for text, want in cases.items():
             self.assertEqual(brand_scan.find_brands(text), want, text)

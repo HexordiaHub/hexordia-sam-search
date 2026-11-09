@@ -37,7 +37,9 @@ BRANDS: tuple[tuple[str, str], ...] = (
     ("Magnet Verify", r"magnet\s+verify"),
     ("Magnet Review", r"magnet\s+review"),
     ("GrayKey", r"gr[ae]y\s?key"),          # "GreyKey" appears in the 19AQMM27NITLABFURN IT SOW
+    ("VeraKey", r"vera\s?key"),             # Magnet product Hexordia resells (added 2026-11-08)
     ("Griffeye", r"griffeye"),
+    ("Lumyx", r"lumyx"),                     # Hexordia product line (added 2026-11-08)
     ("MSAB", r"msab"),
     ("XRY", r"xry"),
     ("XAMN", r"xamn"),
@@ -49,7 +51,7 @@ BRANDS: tuple[tuple[str, str], ...] = (
 NEEDS_CONTEXT = {"AXIOM", "XEC"}
 CONTEXT_CHARS = 250
 _CONTEXT = re.compile(
-    r"(?<![a-z0-9])(forensics?|digital evidence|mobile|extraction|examiner|cellebrite|ftk|magnet|msab|xry|"
+    r"(?<![a-z0-9])(forensics?|digital evidence|mobile|extraction|examiner|cellebrite|ftk|magnet|msab|xry|lumyx|verakey|vera\\s?key|"
     r"graykey|greykey|license|licen[cs]es?|software|exploitation|e-?discovery|investigat\w*|cyber)(?![a-z0-9])",
     re.I,
 )
