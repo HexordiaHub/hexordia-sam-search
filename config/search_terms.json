@@ -5,9 +5,8 @@
     "ArcPoint",
     "Atrio",
     "Axiom",
-    "Cyber",
     "EC2",
-    "DC3",
+    "Defense Cyber Crime Center",
     "CELLEX",
     "MEDEX",
     "DOMEX",
@@ -20,7 +19,6 @@
     "Digital forensics",
     "SOFWERX",
     "Digital Evidence Laboratory",
-    "IRS",
     "DVR Examiner",
     "XRY",
     "MSAB",
@@ -29,12 +27,20 @@
     "Magnet Review",
     "Griffeye",
     "XAMN",
-    "XEC"
+    "XEC",
+    "Lumyx",
+    "VeraKey",
+    "mobile forensics",
+    "computer forensics",
+    "digital evidence"
   ],
   "notes": [
     "Forensic and Forensics are both kept so title matching is more forgiving.",
     "SAM Get Opportunities API matches the title parameter as a title filter, not full description text.",
-    "Broad terms like Cyber and IRS will return many results; use --days and review carefully.",
-    "Brand names (AXIOM, Magnet Forensics/Verify/Review, GrayKey, Griffeye, MSAB, XRY, XAMN, XEC) are also scanned in each notice's full description by scripts/brand_scan.py; the report and history carry them as brand_terms."
+    "Dropped Cyber and IRS (noise). Replaced DC3 with \"Defense Cyber Crime Center\" (avoid Douglas DC-3 false positives).",
+    "Bare Axiom kept; brand_scan.py still requires forensic context for AXIOM/XEC.",
+    "Brand names (AXIOM, Magnet Forensics/Verify/Review, GrayKey, Griffeye, MSAB, XRY, XAMN, XEC, Lumyx, VeraKey) are also scanned in each notice full description by scripts/brand_scan.py; the report and history carry them as brand_terms.",
+    "Added 2026-11-08: Lumyx, VeraKey, mobile forensics, computer forensics, digital evidence.",
+    "NOT added: Cellebrite/UFED \u2014 Hexordia does not resell Cellebrite (Matthew 2026-11-08)."
   ]
 }
